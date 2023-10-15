@@ -1,0 +1,24 @@
+.Button {
+    background: var(--successGreen);
+    color: var(--fontPrimary);
+    padding: 0.6rem 1.2rem;
+    font-weight: 60;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .Button:hover {
+    background: var(--fontPrimary);
+    color: #fff;
+  }
+  
+  .Button:hover span {
+    color: #fff;
+  }

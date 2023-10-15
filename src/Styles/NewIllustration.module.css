@@ -1,0 +1,13 @@
+.NewIllustration {
+    padding: 5rem 2rem;
+  }
+  
+  .NewIllustration img {
+    max-width: 80%;
+  }
+  
+  @media only screen and (max-width: 1023px) {
+    .NewIllustration {
+      display: none;
+    }
+  }
