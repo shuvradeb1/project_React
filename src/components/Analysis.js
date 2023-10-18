@@ -1,6 +1,7 @@
 import Question from './Question';
 import classes from '../Styles/Analysis.module.css';
 
+
 export default function Analysis(){
     return(
         <div className={classes.analysis}>
