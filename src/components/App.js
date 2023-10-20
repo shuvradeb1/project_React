@@ -6,10 +6,12 @@ import Login from "./pages/Login";
 import Quiz from "./pages/Ouiz";
 import Result from "./pages/Result";
 import Signup from "./pages/Signup";
+import {AuthProvider}from "../contexts/AuthContext";
 
 function App() {
   return (
     <Router>
+      <AuthProvider>
       <Layout>
         <Routes>
           <Route exact path="/" Component={Home} />
@@ -19,6 +21,7 @@ function App() {
           <Route exact path="/Result" Component={Result} />
         </Routes>
       </Layout>
+      </AuthProvider>
     </Router>
   );
 }
