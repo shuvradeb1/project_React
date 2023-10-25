@@ -12,7 +12,7 @@ export default function LoginForm() {
   const [error, setError] = useState();
   const [loading, setLoading] = useState();
 
-  const { login } = useAuth();
+  const { Login } = useAuth();
   const navigate = useNavigate();
 
   async function handleSubmit(e) {
@@ -21,8 +21,8 @@ export default function LoginForm() {
     try {
       setError("");
       setLoading(true);
-      await login(email, password);
-      navigate.push("/");
+      await Login(email, password);
+      navigate("/")
     } catch (err) {
       console.log(err);
       setLoading(false);
