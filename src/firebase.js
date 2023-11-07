@@ -8,7 +8,8 @@ const firebaseConfig = {
         projectId: "react-quiz-dev-790cb",
         storageBucket: "react-quiz-dev-790cb.appspot.com",
         messagingSenderId: "932799082878",
-        appId: "1:932799082878:web:64921c57a4d5699038832f"
+        appId: "1:932799082878:web:64921c57a4d5699038832f",
+        databaseURL: "https://react-quiz-dev-790cb-default-rtdb.asia-southeast1.firebasedatabase.app",
       };
 
       // Initialize Firebase
